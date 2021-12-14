@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photografer - Elena Vishnevskaya</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__top" id="header__top">
+                <ul class="nav" id="nav">
+                    <li class="nav__item"><a href="#" class="nav__link" data-scroll="#about">About me</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link" data-scroll="#forWhom">For whom?</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link" data-scroll="#portfolio">Portfolio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link" data-scroll="#price">Price</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link" data-scroll="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id='navToggle'>
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                </div>
+            </div>
+            <div class="header__inner">
+                <p class="header__description">photographer</p>
+                <h1 class="header__title">Elena Vishnevskaya</h1>
+                <button class="header__btn">Schedule photoshoots <img src="img/btn-arr.svg" alt=""
+                        class="btn__img"></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section__title" data-shadow="About me">About me</h2>
+            <img src="img/about-img.png" alt="" class="about__img">
+            <h3 class="about__title">Hey! I'm Elena Vishnevskaya!</h3>
+            <p class="section__description">Photography is my passion. I have been photographing for many years and I
+                never run out of inspiration. With my work, I
+                try to bare the most intimate in people.</p>
+            <button class="btn">Portfolio</button>
+        </div>
+    </section>
+
+    <section class="for__whom" id="forWhom">
+        <div class="container">
+            <h2 class="section__title" data-shadow="For whom?">For whom?</h2>
+            <ul class="fw__list">
+                <li class="fw__item">
+                    <img src="img/fw-event.png" alt="" class="fw__img">
+                    <h3 class="fw__item--title">For an event</h3>
+                    <p class="fw__item--description">Delegate the mission of serving your memories in photos to the
+                        photographer. During the event, you do not have to be
+                        distracted by your smartphone to eternize what you see.</p>
+                </li>
+                <li class="fw__item">
+                    <img src="img/fw-blogger.png" alt="" class="fw__img">
+                    <h3 class="fw__item--title">For blogger</h3>
+                    <p class="fw__item--description">A photoshoot will help you if you make useful posts and care about
+                        the visuals of your content. High-quality pictures
+                        or videos attract attention and differentiate from the competitors.</p>
+                </li>
+                <li class="fw__item">
+                    <img src="img/fw-busness.png" alt="" class="fw__img">
+                    <h3 class="fw__item--title">For busness</h3>
+                    <p class="fw__item--description">The photograph is the main and visual description of the product.
+                        High-quality photos of a product or service will act
+                        as a fillip for increasing the market.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section__title" data-shadow="Portfolio">Portfolio</h2>
+            <ul class="portfolio__btns--list">
+                <li class="portfolio__btns--item" data-tab="#pI">Individual
+                </li>
+                <li class="portfolio__btns--item" data-tab="#pC">Corporate</a></li>
+                <li class="portfolio__btns--item" data-tab="#pE">Event</li>
+                <img src="img/p-arr.svg" alt="" class="portfolio__arr" id="pArr">
+            </ul>
+            <ul class="portfolio__list" id="pI">
+                <li class="portfolio__item"><img src="img/portfolio-1.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-2.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-3.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-4.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-5.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-6.png" alt="" class="portfolio__img"></li>
+            </ul>
+            <ul class="portfolio__list" id="pC">
+                <li class="portfolio__item"><img src="img/portfolio-4.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-5.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-6.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-1.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-2.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-3.png" alt="" class="portfolio__img"></li>
+            </ul>
+            <ul class="portfolio__list" id="pE">
+                <li class="portfolio__item"><img src="img/portfolio-6.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-5.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-4.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-3.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-2.png" alt="" class="portfolio__img"></li>
+                <li class="portfolio__item"><img src="img/portfolio-1.png" alt="" class="portfolio__img"></li>
+            </ul>
+            <button class="btn">More</button>
+        </div>
+    </section>
+
+    <section class="price" id="price">
+        <div class="container">
+            <h2 class="section__title" data-shadow="Price">Price</h2>
+            <ul class="price__list">
+                <li class="price__item">
+                    <h3 class="price__item--title">Individual</h3>
+                    <h3 class="price__item--title">$200</h3>
+                    <div class="price__text">
+                        <p class="price__item--description">Perfect for small sessions and personal photo shoots with
+                            any
+                            purpose.</p>
+                        <p class="price__item--description">2 - hours shoot</p>
+                        <p class="price__item--description">50 photos available</p>
+                        <p class="price__item--description">Free retouch</p>
+                    </div>
+                    <button class="price__btn">Schedule photoshoots<img src="img/btn-arr-b.svg" alt=""
+                            class="btn__img"></button>
+                </li>
+                <li class="price__item">
+                    <h3 class="price__item--title">Corporate</h3>
+                    <h3 class="price__item--title">$500</h3>
+                    <div class="price__text">
+                        <p class="price__item--description">Perfect for middle-level businesses and small family events.
+                        </p>
+                        <p class="price__item--description">5 - hours shoot</p>
+                        <p class="price__item--description">100 photos available</p>
+                        <p class="price__item--description">Free retouch</p>
+                    </div>
+                    <button class="price__btn">Schedule photoshoots<img src="img/btn-arr-b.svg" alt=""
+                            class="btn__img"></button>
+                </li>
+                <li class="price__item">
+                    <h3 class="price__item--title">Event</h3>
+                    <h3 class="price__item--title">$900</h3>
+                    <div class="price__text">
+                        <p class="price__item--description">Perfect for events like conference, birthday or wedding.</p>
+                        <p class="price__item--description">2 - hours shoot</p>
+                        <p class="price__item--description">50 photos available</p>
+                        <p class="price__item--description">Free retouch</p>
+                    </div>
+                    <button class="price__btn">Schedule photoshoots<img src="img/btn-arr-b.svg" alt=""
+                            class="btn__img"></button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section__title" data-shadow="Contact">Contact</h2>
+            <p class="section__description">I’d love hear from you, so if you like the shots Itoke, share your thoughts
+                with me! Be sure to contact me if you’re
+                looking for a professional photographer.</p>
+            <form action="" name="contact" class="contact__form">
+                <input name="name" type="text" class="contact__input" id="name" placeholder="Name">
+                <input name="mail" type="text" class="contact__input" id="mail" placeholder="E-mail">
+                <textarea name="message" type="text" class="contact__text" id="message" placeholder="Message">
+                </textarea>
+                <button class="form__btn" type="submit">Send<img src="img/btn-arr-b.svg" alt=""
+                        class="btn__img"></button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <h3 class="footer__title">Elena Vishnevskaya</h3>
+            <ul class="socials__list">
+                <li class="socials__item">
+                    <a href="#" class="social__link" target="_blank">
+                        <img src="img/whatsapp.svg" alt="" class="social__icon">
+                        <p class="social__name">8(800)555-355</p>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a href="#" class="social__link" target="_blank">
+                        <img src="img/behance.svg" alt="" class="social__icon">
+                        <p class="social__name">Behance</p>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a href="#" class="social__link" target="_blank">
+                        <img src="img/instagram.svg" alt="" class="social__icon">
+                        <p class="social__name">@lena_wish_photo</p>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a href="#" class="social__link" target="_blank">
+                        <img src="img/pinterest.svg" alt="" class="social__icon">
+                        <p class="social__name">Pinterest</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="tel:8(800)555-355" class="social__link">
+                <img src="img/phone.svg" alt="" class="phone__icon">
+                <p class="phone__text">8(800)555-355</p>
+            </a>
+            <a href="mailto:contact_contact@mail.ru" class="social__link">
+                <img src="img/mail.svg" alt="" class="mail__icon">
+                <p class="mail__text">contact_contact@mail.ru</p>
+            </a>
+            <p class="copyright">© 2021 All rights reserved. Elena Vishnevskaya.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
